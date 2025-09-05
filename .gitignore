@@ -1,7 +1,15 @@
 # Byte-compiled / optimized / DLL files
+# Log files
+# Ignore the directory where log files are stored.
+logs/
+
+# Python artifacts
 __pycache__/
 *.py[codz]
 *$py.class
+*.pyc
+*.pyo
+*.pyd
 
 # C extensions
 *.so
