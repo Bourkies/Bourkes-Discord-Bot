@@ -1,0 +1,10 @@
+# docker-compose.yml
+services:
+  bourkes-discord-bot:
+    build: .
+    image: bourkes-discord-bot:latest 
+    platform: linux/arm64
+    restart: unless-stopped
+    container_name: bourkes-discord-bot
+    volumes:
+      - ./logs:/app/logs

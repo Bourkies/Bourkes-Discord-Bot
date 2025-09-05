@@ -1,0 +1,9 @@
+# docker-compose/dev/yml
+services:
+  bourkes-discord-bot:
+    # This overrides the production volume and links all files
+    volumes:
+      - .:/app 
+    # This overrides the production restart policy
+    restart: "no"
+
