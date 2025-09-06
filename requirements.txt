@@ -1,2 +1,4 @@
 loguru
 tomli
+discord.py
+python-dotenv

@@ -34,6 +34,6 @@ def loguru_setup(config, project_root):
         backtrace=True
     )
 
-    logger.debug("Log settings applied:" + str(log_config))
+    logger.debug(f'Log settings applied: {log_config}')
     logger.trace('End function "loguru_setup"')
     
